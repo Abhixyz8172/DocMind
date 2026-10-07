@@ -1,0 +1,11 @@
+services:
+  rag-api:
+    build: .
+    ports: ["8000:8000"]
+    env_file: .env
+    volumes:
+      - chroma_data:/data      # persist the vector DB
+      - hf_models:/models      # cache downloaded embedding models
+volumes:
+  chroma_data:
+  hf_models:

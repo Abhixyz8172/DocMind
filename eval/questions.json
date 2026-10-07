@@ -1,0 +1,10 @@
+[
+  {"question": "How do rolling updates work and can I roll back?", "expected_source": "kubernetes_basics.md"},
+  {"question": "What is the difference between ClusterIP, NodePort and LoadBalancer?", "expected_source": "kubernetes_basics.md"},
+  {"question": "Where should I store passwords and API tokens for my pods?", "expected_source": "kubernetes_basics.md"},
+  {"question": "How can the number of replicas scale automatically with CPU load?", "expected_source": "kubernetes_basics.md"},
+  {"question": "Why does chunk overlap matter?", "expected_source": "rag_basics.md"},
+  {"question": "What is hit-rate at k?", "expected_source": "rag_basics.md"},
+  {"question": "How do I reduce hallucination in a RAG system?", "expected_source": "rag_basics.md"},
+  {"question": "Which embedding model families are popular and open source?", "expected_source": "rag_basics.md"}
+]

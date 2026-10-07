@@ -1,0 +1,6 @@
+.git
+.env
+chroma_db
+__pycache__
+tests
+eval
